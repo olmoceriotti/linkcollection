@@ -1,0 +1,121 @@
+
+/*Body*/
+
+.body{
+  font-family: 'Montserrat', sans-serif;
+  color: #2e279d;
+}
+
+.container-fluid{
+  padding: 10% 10% 0;
+  text-align: center;
+  background-color: #dff6f0;
+  height: 100vh;
+}
+
+/*Profile Section */
+
+.logo-image{
+  border-radius: 100%;
+  width: 18rem;
+}
+
+.company-name{
+  margin: 2rem 0;
+  font-size: 3rem;
+}
+
+/*Link Section*/
+
+.link-list{
+  list-style-type: none;
+  text-align: center;
+}
+
+.link{
+  text-decoration: none;
+  color: #2e279d;
+}
+
+.link:hover{
+  text-decoration: none;
+  color: #2e279d;
+}
+
+.card{
+  margin: 1rem 0;
+  width: 100%;
+  height: 8rem;
+  background-color: transparent;
+  border-width: 5px;
+  border-color: #2e279d;
+  border-radius: 150px;
+}
+
+.card-body{
+  padding: 0;
+}
+
+.card-text{
+  font-size: 3rem;
+  margin-top: 1.5rem;
+}
+
+/* Social Section */
+
+.social-icons{
+  margin: 4rem auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon{
+  color: #2e279d;
+  font-size: 4rem;
+}
+
+/* Footer cta */
+
+.footer-cta{
+  background-color: #2e279d;
+  height: 8rem;
+  padding: 1rem 0;
+  transition: 0.5s;
+}
+
+.height-cta{
+  height: 16rem;
+}
+
+.footer-cover-text{
+  position: relative;
+  color: white;
+  z-index: 2;
+  font-size: 3rem;
+}
+
+.arrow-icon{
+  position: absolute;
+  top: -2.5rem;
+  left: calc(50% - 3rem);
+  background-color: #2e279d;
+  color: white;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 100%;
+  font-size: 3rem;
+}
+
+.ctaBtn{
+  background-color: #46b3e6;
+  color: white;
+  margin: auto;
+  width: 50%;
+  font-size: 2rem;
+  height: 6rem;
+}
+
+.vanish{
+  display: none;
+}
